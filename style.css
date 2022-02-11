@@ -6,6 +6,8 @@
 
 /* Header */
 header {
+    position: sticky;
+    top: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +15,6 @@ header {
     background-color: #35424A;
     border-bottom: 3px solid #A94C6B;
     padding: 0.5em;
-
     height: 4em;
 }
 
