@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #35424A;
+    border-bottom: 3px solid #A94C6B;
+    padding: 0.5em;
+
+    height: 4em;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: small;
+}
+
+header ul li {
+    padding: 5px;
+    margin-left: 1em;
+}
+
+header ul li a:hover{
+    color: #A94C6B;
+}
+
+/* header .home, */
+header span {
+    color: #A94C6B;
+}
+
+header a {
+    text-decoration: none;
+    color: #F7F7EA;
+}
+
+/* section 1 */
+
+main {
+    color: white;
+}
+
+.section1 {
+    background-image: url(./img/showcase.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+/* section2 */
+
+.section2 {
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5em;
+    padding: 1em;
+}
+
+.section2 input {
+    height: 0.5em;
+    padding: 1em;
+    /* font-size: 0.5em; */
+}
+
+.section2 button {
+    height: 2.3em;
+    padding: 0.4em;
+    color: white;
+    background-color: orangered;
+    border: 4px solid orangered;
+}
+
+/* section3 */
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 15em;
+
+}
+
+.section3 img {
+    height: 4em;
+
+    margin-bottom: 1em;
+}
+
+.section3 nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.section3 p{
+    /* font-size: 0.9em; */
+    text-align: center;
+}
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: #35424A;
+    height: 6em;
+    font-size: 0.9em;
+}
+
+footer p {
+    padding: 1em;
+}
+
+footer img {
+    height: 2em;
+    margin-bottom: 1.5em;
+}
