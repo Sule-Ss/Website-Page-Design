@@ -29,7 +29,7 @@ header ul li {
     margin-left: 1em;
 }
 
-header ul li a:hover{
+header ul li a:hover {
     color: #A94C6B;
 }
 
@@ -45,14 +45,11 @@ header a {
 
 /* section 1 */
 
-main {
-    color: white;
-}
+
 
 .section1 {
     background-image: url(./img/showcase.jpg);
     background-size: cover;
-    /* background-size: contain; */
     background-repeat: no-repeat;
     background-position: center;
     height: 20em;
@@ -60,6 +57,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 .section1 h1 {
@@ -74,13 +72,16 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3.5em;
+    height: 4em;
     padding: 1em;
+    color: white;
 }
 
 .section2 input {
     height: 0.5em;
     padding: 1em;
+    outline: none;
+
     /* font-size: 0.5em; */
 }
 
@@ -117,8 +118,7 @@ main {
     padding: 1em;
 }
 
-.section3 p{
-    /* font-size: 0.9em; */
+.section3 p {
     text-align: center;
 }
 
@@ -144,4 +144,114 @@ footer p {
 footer img {
     height: 2em;
     margin-bottom: 1.5em;
+}
+
+/* about */
+
+.section2-about,
+.section2-services {
+    padding: 0em 2.7em;
+    height: 5em;
+}
+
+.section3-about {
+    display: flex;
+    justify-content: space-between;
+    height: 30em;
+}
+
+.section3-about h4 {
+    margin-bottom: 1em;
+}
+
+.section3-about .nav1 {
+    margin: 2em;
+    padding: 1em;
+}
+
+.about-us-dark {
+    background-color: #35424A;
+    color: white;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.section3-about .nav2 {
+    background-color: #35424A;
+    color: white;
+    margin: 2em;
+    height: 10em;
+    padding: 1em;
+}
+
+/* services */
+
+.section3-services {
+    display: flex;
+    justify-content: space-between;
+    height: 30em;
+
+}
+
+.section3-services .nav1 {
+    padding: 1em;
+}
+
+.section3-services .nav1 h4 {
+    padding: 0.5em;
+}
+
+.section3-services .nav1 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E6E6E6;
+    height: 9em;
+    padding: 1em;
+    border: 1px solid white;
+    font-size: 14px;
+
+}
+
+.section3-services .nav2 {
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section3-services form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 1em;
+    background-color: #35424A;
+    color: white;
+}
+
+.section3-services form h4 {
+    margin: 1em 0em;
+}
+
+.section3-services button {
+    width: 4em;
+    height: 2em;
+    color: white;
+    background-color: orangered;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.section3-services input {
+    height: 2em;
+    outline: none;
+}
+
+.section3-services textarea {
+    outline: none;
+}
+
+.section3-services label {
+    margin: 0.5em 0em;
 }
